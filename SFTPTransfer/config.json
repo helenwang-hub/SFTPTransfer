@@ -1,0 +1,87 @@
+{
+  "Environment": "Waystar",
+  "EmailCredentials": {
+    "FromEmail": "sqladmin@psahealthcare.com",
+    "ToEmail": "helen.wang@aveanna.com",
+    "ToEmail2": "helen.wang@aveanna.com,FBlack@psahealthcare.com,CDooley@psahealthcare.com,dzelczak@psahealthcare.com,BJackson@psahealthcare.com,Lakita.floyd@aveanna.com,Clinton.Williams@aveanna.com,Nicole.Palmer@aveanna.com,Martha.Kalombo@aveanna.com",
+    "MailServer": "mail.psacorp.psakids.com",
+    "Host": "mail.psahealthcare.com",
+    "Port": "25"
+  },
+  "LogFilePath": "C:\\Logs\\SFTPTransfer\\Log-[yyyymmdd].txt",
+  "EmailCredentials2": {
+    "FromEmail": "oper@psahealthcare.com",
+    "ToEmail": "edisupport@psahealthcare.com",
+    "ToEmail2": "helen.wang@aveanna.com",
+    "MailServer": "mail.psacorp.psakids.com",
+    "Host": "mail.psahealthcare.com",
+    "Port": "25"
+  },
+  "FTPCredentials": {
+    "HHAExchange": {
+      "UserName": "EHSPA",
+      "Password": "hUn7N<h4",
+      "Host": "sftpprod.hhaexchange.com",
+      "Port": "2222",
+      "RemoteDirectoryUpload": "/Inbox",
+      "RemoteDirectoryDownload": "/Outbox/Responsefiles/",
+      "LocalDirectoryUpload": "\\\\psaedisvr\\EDI\\HHAExchange\\Outbound\\",
+      "LocalDirectoryDownload": "\\\\psaedisvr\\EDI\\HHAExchange\\Inbound\\",
+      "LocalDirectoryUploadArchive": "\\\\psaedisvr\\EDI\\HHAExchange\\Archive\\Outbound\\",
+      "LocalDirectoryDownloadArchive": "\\\\psaedisvr\\EDI\\HHAExchange\\Archive\\Inbound\\",
+      "FileName1": "EDI_581584862_",
+      "FileName2": "EDI_251506848_"
+    },
+    "Waystar": {
+      "UserName": "109148",
+      "Password": "gichesuVi10k!",
+      "Host": "sshftp.waystar.com",
+      "Port": "22",
+      "RemoteDirectoryUpload": "/Upload",
+      "LocalDirectoryUpload": "\\\\psaedisvr\\EDI\\ZirMed\\Outbound\\",
+      "LocalDirectoryUpload2": "\\\\psaedisvr\\EDI\\ZirMed\\Outbndi\\",
+      "RemoteDirectoryDownload": "/Download/",
+      "LocalDirectoryDownload": "\\\\psaedisvr\\EDI\\ZirMed\\RPTParent\\",
+      "FileName1": "ZirMed837.clp",
+      "FileName2": "ZirMed837.cli"
+    },
+    "WaystarTest": {
+      "UserName": "WaystarTest",
+      "Password": "Test123!",
+      "Host": "testsftp.Waystar.com",
+      "Port": "22",
+      "RemoteDirectoryUpload": "/Upload",
+      "LocalDirectoryUpload": "\\\\psaedisvr\\EDI\\ZirMed\\Outbound\\",
+      "RemoteDirectoryDownload": "/Test/",
+      "LocalDirectoryDownload": "\\\\psaedisvr\\EDI\\ZirMed\\RPTParent\\",
+      "FileName1": "ZirMed837.clp",
+      "FileName2": "ZirMed837.cli"
+    },
+    "SpiffyCloud": {
+      "UserName": "psa",
+      "Password": "5bmzQ3sZ",
+      "Host": "ftp.spiffycloud.com",
+      "Port": "21",
+      "RemoteDirectoryUpload": "/import",
+      "RemoteDirectoryDownload": "/export/",
+      "LocalDirectoryUpload": "\\\\psaorca\\E_Drive\\IVR\\Outbound\\",
+      "LocalDirectoryDownload": "\\\\psaorca\\E_Drive\\IVR\\Inbound\\",
+      "LocalDirectoryUploadArchive": "\\\\psaorca\\E_Drive\\IVR\\Archive\\Outbound\\",
+      "LocalDirectoryDownloadArchive": "\\\\psaorca\\E_Drive\\IVR\\Archive\\Inbound\\",
+      "FileName1": "assignments.txt",
+      "FileName2": "patients.txt",
+      "FileName3": "ca.txt"
+    },
+    "compilerOptions": {
+      "noImplicitAny": false,
+      "noEmitOnError": true,
+      "removeComments": false,
+      "sourceMap": true,
+      "target": "es5"
+    },
+    "exclude": [
+      "node_modules",
+      "wwwroot"
+    ]
+  }
+}
